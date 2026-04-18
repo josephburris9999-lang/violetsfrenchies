@@ -16,7 +16,7 @@ npm run dev
 
 ### Git & Deployment
 
-#### Push to GitHub
+#### Push to GitHub via SSH
 
 1. **Initialize Git:**
    ```bash
@@ -24,7 +24,7 @@ npm run dev
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin git@github.com:josephburris9999-lang/violetsfrenchies.git
+   git remote add origin git@github.com:USERNAME/REPO.git
    ```
 
 2. **Handle "non-fast-forward" errors:**
@@ -32,10 +32,12 @@ npm run dev
    ```bash
    git pull origin main --allow-unrelated-histories
    ```
-   *Note: If a text editor opens for a merge message, simply save and exit (usually `Ctrl+X` then `Y` then `Enter`, or `:wq` in Vim).*
 
-3. **Push again:**
+3. **Handle "unmerged files" or "conflicts":**
+   If `git pull` fails with a conflict:
    ```bash
+   git add .
+   git commit -m "Resolve merge conflicts"
    git push -u origin main
    ```
 
@@ -44,3 +46,9 @@ npm run dev
 - **Styling:** Tailwind CSS + ShadCN UI
 - **AI:** Genkit (Google Gemini)
 - **Icons:** Lucide React
+
+## Project Structure
+- `src/ai`: Genkit flows and configuration
+- `src/app`: Next.js pages and layouts
+- `src/components`: Reusable UI components (ShadCN)
+- `src/lib`: Utility functions and placeholder data
