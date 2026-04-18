@@ -1,0 +1,33 @@
+---
+description: Testing and documentation expectations for this project
+alwaysApply: true
+---
+
+Testing and Documentation Rule
+Testing expectations
+Every new business logic path must have unit tests.
+Bug fixes should include regression tests when practical.
+UI work should include tests for meaningful user-visible behavior.
+Prefer deterministic tests with clear Arrange / Act / Assert structure.
+Mock only true boundaries, not internal behavior unnecessarily.
+
+Documentation expectations
+Every implementation must include concise documentation covering:
+what was implemented
+why it was implemented
+how to run or use it
+how it is tested
+assumptions and tradeoffs
+follow-up work if any
+
+Preferred workflow
+Describe expected behavior
+Add or update tests
+Implement
+Re-run and verify
+Document
+
+Do not
+skip tests for core logic
+leave undocumented APIs or flows
+claim something is verified without testing

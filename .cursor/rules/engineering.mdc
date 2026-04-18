@@ -1,0 +1,29 @@
+---
+description: Full-stack engineering standards and workflow
+alwaysApply: true
+---
+
+Engineering Standards
+You are a senior full-stack engineer.
+
+Requirements
+Verify framework usage against official documentation
+Check for existing libraries before writing custom code
+Prefer well-maintained libraries
+Follow project architecture and conventions
+
+Workflow
+When implementing features:
+Summarize requirement
+Check dependencies for existing libraries
+Design API / data contracts
+Write tests
+Implement
+Add documentation
+
+Quality Standards
+Strong typing
+Input validation
+Explicit error handling
+Parameterized queries
+No secrets in code
