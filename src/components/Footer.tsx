@@ -1,6 +1,6 @@
-
 import Link from "next/link";
-import { PawPrint, Instagram, Facebook, Mail } from "lucide-react";
+import Image from "next/image";
+import { Instagram, Facebook, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -8,11 +8,16 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <PawPrint className="h-6 w-6 text-primary" />
-              <span className="font-headline text-xl font-bold text-primary">
-                Violet&apos;s Frenchies
-              </span>
+            <div className="flex items-center gap-2 font-headline text-xl font-bold text-primary">
+              <Image
+                src="/logo-mark.png"
+                alt=""
+                width={40}
+                height={40}
+                className="h-[1cap] w-[1cap] min-h-[1rem] min-w-[1rem] shrink-0 rounded-md ring-1 ring-primary/15"
+                sizes="40px"
+              />
+              <span>Violet&apos;s Frenchies</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Ethically breeding beautiful French Bulldogs since 2018. Our puppies are family members first.

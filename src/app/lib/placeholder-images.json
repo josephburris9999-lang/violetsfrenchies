@@ -1,65 +1,64 @@
-
 {
   "placeholderImages": [
     {
       "id": "hero-frenchie",
-      "description": "Elegant French Bulldog puppy sitting on a soft blanket",
-      "imageUrl": "https://picsum.photos/seed/frenchie1/1200/800",
+      "description": "French Bulldog puppy portrait",
+      "imageUrl": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=1200&h=800&q=80",
       "imageHint": "french bulldog"
     },
     {
       "id": "puppy-1",
-      "description": "Fawn French Bulldog puppy looking curious",
-      "imageUrl": "https://picsum.photos/seed/puppy1/600/600",
-      "imageHint": "puppy dog"
+      "description": "French Bulldog puppy by a food bowl",
+      "imageUrl": "https://images.unsplash.com/photo-1746483966755-273b467b24fa?auto=format&fit=crop&w=600&h=600&q=80",
+      "imageHint": "french bulldog puppy"
     },
     {
       "id": "puppy-2",
-      "description": "Blue French Bulldog puppy sleeping",
-      "imageUrl": "https://picsum.photos/seed/puppy2/600/600",
-      "imageHint": "frenchie puppy"
+      "description": "French Bulldog puppy playing outside",
+      "imageUrl": "https://images.unsplash.com/photo-1587893143314-972249555d65?auto=format&fit=crop&w=600&h=600&q=80",
+      "imageHint": "french bulldog puppy"
     },
     {
       "id": "puppy-3",
-      "description": "Brindle French Bulldog puppy playing with a toy",
-      "imageUrl": "https://picsum.photos/seed/puppy3/600/600",
-      "imageHint": "playful puppy"
+      "description": "French Bulldog on the couch",
+      "imageUrl": "https://images.unsplash.com/photo-1670942298778-733696b582be?auto=format&fit=crop&w=600&h=600&q=80",
+      "imageHint": "french bulldog"
     },
     {
       "id": "breeding-dog-1",
-      "description": "Champion adult French Bulldog",
-      "imageUrl": "https://picsum.photos/seed/adult1/800/600",
-      "imageHint": "adult frenchie"
+      "description": "Gray French Bulldog portrait",
+      "imageUrl": "https://images.unsplash.com/photo-1561754050-9a1ee0470c73?auto=format&fit=crop&w=800&h=600&q=80",
+      "imageHint": "french bulldog"
     },
     {
       "id": "breeding-dog-2",
-      "description": "Healthy adult French Bulldog in a garden",
-      "imageUrl": "https://picsum.photos/seed/adult2/800/600",
-      "imageHint": "dog garden"
+      "description": "French Bulldog on a soft rug",
+      "imageUrl": "https://images.unsplash.com/photo-1521907236370-15adf2297445?auto=format&fit=crop&w=800&h=600&q=80",
+      "imageHint": "french bulldog"
     },
     {
       "id": "about-breeder",
-      "description": "Ethical breeding environment showcase",
-      "imageUrl": "https://picsum.photos/seed/breeder/1000/600",
-      "imageHint": "dog home"
+      "description": "French Bulldog resting in sunlight",
+      "imageUrl": "https://images.unsplash.com/photo-1763415186794-6dcdf550f467?auto=format&fit=crop&w=1000&h=600&q=80",
+      "imageHint": "french bulldog"
     },
     {
       "id": "gallery-1",
-      "description": "Past litter of 4 French Bulldog puppies",
-      "imageUrl": "https://picsum.photos/seed/gallery1/800/800",
-      "imageHint": "puppies group"
+      "description": "French Bulldog on a cozy blanket",
+      "imageUrl": "https://images.unsplash.com/photo-1521907554502-7440e4702fc3?auto=format&fit=crop&w=800&h=800&q=80",
+      "imageHint": "french bulldog"
     },
     {
       "id": "gallery-2",
-      "description": "Frenchie puppy face close up",
-      "imageUrl": "https://picsum.photos/seed/gallery2/800/800",
-      "imageHint": "puppy face"
+      "description": "Brown and white French Bulldog puppy",
+      "imageUrl": "https://images.unsplash.com/photo-1598533506540-4e5a80bf3b75?auto=format&fit=crop&w=800&h=800&q=80",
+      "imageHint": "french bulldog puppy"
     },
     {
       "id": "gallery-3",
-      "description": "Frenchie playing in the grass",
-      "imageUrl": "https://picsum.photos/seed/gallery3/800/800",
-      "imageHint": "dog grass"
+      "description": "French Bulldog with a mug",
+      "imageUrl": "https://images.unsplash.com/photo-1598134493179-51332e56807f?auto=format&fit=crop&w=800&h=800&q=80",
+      "imageHint": "french bulldog"
     }
   ]
 }

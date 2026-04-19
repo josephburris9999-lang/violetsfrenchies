@@ -2,9 +2,10 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { PawPrint, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
@@ -26,11 +27,20 @@ export default function Navigation() {
     <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
-          <Link href="/" className="flex items-center gap-2 group">
-            <PawPrint className="h-8 w-8 text-primary transition-transform group-hover:scale-110" />
-            <span className="font-headline text-2xl font-bold text-primary tracking-tight">
-              Violet&apos;s Frenchies
-            </span>
+          <Link
+            href="/"
+            className="flex items-center gap-2 group font-headline text-2xl font-bold text-primary tracking-tight"
+          >
+            <Image
+              src="/logo-mark.png"
+              alt=""
+              width={48}
+              height={48}
+              className="h-[1cap] w-[1cap] min-h-[1.1rem] min-w-[1.1rem] shrink-0 rounded-lg ring-1 ring-primary/15 transition-transform group-hover:scale-110"
+              sizes="48px"
+              priority
+            />
+            <span>Violet&apos;s Frenchies</span>
           </Link>
 
           {/* Desktop Nav */}
